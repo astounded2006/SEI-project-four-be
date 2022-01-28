@@ -1,0 +1,98 @@
+[
+{
+  "model": "venues.venue",
+  "pk": 1,
+  "fields": {
+    "name": "NOA Restaurant",
+    "types": "Restaurant",
+    "image": "https://static.visitestonia.com/images/2780923/1600_900_false_false_db1daa8ad47061409589cf8e315e57bc.jpg",
+    "description": "NOA IS AS OPEN-MINDED AND INTERNATIONAL, AS IT IS AIRY. ULTIMATELY IT’S OUR CLIENTELE WHO CREATE THE ATMOSPHERE FILLING OUR BEACH HOUSE.\r\nAND THE FOOD… TASTE PALETTE, THAT IS INSPIRED BY OUR TRAVELS AROUND THE WORLD. NATURAL, LIKE THE MATERIALS USED FOR NOA’S COSY YET ECLECTIC INTERIOR.",
+    "number": "508 0589",
+    "expensive": "$$$$",
+    "location": "Ranna tee 3, 12111 Tallinn",
+    "parking": "Available at the premises",
+    "childfriendly": "Yes",
+    "outdoor": "Outdoor Seating Available"
+  }
+},
+{
+  "model": "venues.venue",
+  "pk": 2,
+  "fields": {
+    "name": "Restaurant Argentina",
+    "types": "Restaurant",
+    "image": "https://lh5.googleusercontent.com/p/AF1QipOV27VdxQKZR-GP6mjueNBNcBKvUNAsujssXU23=w400-h300-k-no",
+    "description": "Argentiina, this means love and passion for grilled meat – un amor y pasión por el asado. ¡Olé!\r\n\r\nAsado is an emotion, a story about happiness, passion, and love – just like tango argentine danced at night on the streets of Buenos Aires. However, if tango is simply hot, asado is fiery, even more spicy and sizzling. And of course Buenos Aires itself – impatiently glimmering megacity with its streets filled with delicious grilling aroma. The wandering smoky scent pulls you in and makes every justification for the suave name of the restless metropolis: Buenos Aires – “Good Air”.",
+    "number": "660 5177",
+    "expensive": "$$",
+    "location": "Tartu maantee 80, 10112 Tallin",
+    "parking": "Available at the premises",
+    "childfriendly": "Yes",
+    "outdoor": "No, only indoors"
+  }
+},
+{
+  "model": "venues.venue",
+  "pk": 3,
+  "fields": {
+    "name": "Sigmund Freud Bar",
+    "types": "Cocktail bar",
+    "image": "https://mrhudsonexplores.com/wp-content/uploads/2019/09/Sigmund-Freud-Bar.jpg",
+    "description": "Cocktail bar in Old Tallinn. ...сome to us for everything you needed. Come to us when you don’t know what we needed, hoping someone might tell us. Come to us when looking for love, or sex, or trouble, or for someone who had gone missing, because sooner or later everyone turn up there...",
+    "number": "5696 5414",
+    "expensive": "$$",
+    "location": "Sauna 8, 10140 Tallinn",
+    "parking": "No",
+    "childfriendly": "No",
+    "outdoor": "No, only indoors"
+  }
+},
+{
+  "model": "venues.venue",
+  "pk": 4,
+  "fields": {
+    "name": "Whisper Sister",
+    "types": "Cocktail bar",
+    "image": "https://static.visitestonia.com/images/3714874/600_400_false_false_395b1a3e69f649a798ebe99f2ce361cc.jpg",
+    "description": "Speakeasy-style bar, hidden in the heart of Tallinn. Inspired by the world's best classic cocktail bars.",
+    "number": "5874 7837",
+    "expensive": "$$",
+    "location": "Pärnu mnt 12, 10146 Tallinn",
+    "parking": "No",
+    "childfriendly": "No",
+    "outdoor": "No, only indoors"
+  }
+},
+{
+  "model": "venues.venue",
+  "pk": 5,
+  "fields": {
+    "name": "Kumu",
+    "types": "Museum",
+    "image": "https://www.visittallinn.ee/static/files/062/t2_kumu_arne_maasik.jpg",
+    "description": "The Kumu Art Museum is an art museum in Tallinn, Estonia. It is one of the largest museums in Estonia and one of the largest art museums in Northern Europe. It is one of the five branches of the Art Museum of Estonia, housing its main offices. Kumu is an abbreviation of the Estonian \"Kunstimuuseum\".",
+    "number": "602 6000",
+    "expensive": "$",
+    "location": "A. Weizenbergi 34, 10127 Talli",
+    "parking": "Yes",
+    "childfriendly": "Yes",
+    "outdoor": "Some exhebitions are outside"
+  }
+},
+{
+  "model": "venues.venue",
+  "pk": 6,
+  "fields": {
+    "name": "Lennusadam",
+    "types": "Museum",
+    "image": "https://blogi.kingitus.ee/wp-content/uploads/2016/04/DSC_0049.jpg",
+    "description": "The Seaplane Harbour is a maritime museum in Tallinn, Estonia, opened in spring 2012. The museum is part of the Estonian Maritime Museum. The museum is located in the Tallinn aeroplane harbour in a building originally constructed as a hangar for seaplanes in the area of Peter the Great's Naval Fortress.",
+    "number": "620 0545",
+    "expensive": "$",
+    "location": "Vesilennuki 6, 10145 Tallinn",
+    "parking": "Available",
+    "childfriendly": "Yes",
+    "outdoor": "Yes"
+  }
+}
+]

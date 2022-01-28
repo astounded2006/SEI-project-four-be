@@ -34,4 +34,20 @@ class Comment(models.Model):
 
     def __str__(self):
         return f'Comment {self.id} on Venue {self.venue}'
+
+class Like(models.Model):
+    created_at = models.DateTimeField(auto_now_add=True)
+    venue = models.ForeignKey(
+      Venue,
+      related_name='liked_by',
+      on_delete=models.CASCADE
+    )
+    owner = models.ForeignKey(
+          'jwt_auth.User',
+          related_name='liked_venue',
+          on_delete=models.CASCADE
+    )
+
+    def __str__(self):
+        return f'Like {self.id} on Venue {self.venue}'
         

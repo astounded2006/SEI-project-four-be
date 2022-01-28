@@ -7,8 +7,8 @@ from rest_framework.generics import (
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
 from .permissions import IsOwnerOrReadOnly
 
-from .models import Venue, Comment
-from .serializers import VenueSerializer, CommentSerializer
+from .models import Venue, Comment, Like
+from .serializers import LikeSerializer, VenueSerializer, CommentSerializer
 
 class VenueListView(ListCreateAPIView):
     queryset = Venue.objects.all().order_by('number')
@@ -31,4 +31,16 @@ class CommentDetailView(DestroyAPIView):
 
     queryset = Comment.objects.all()
     serializer_class = CommentSerializer
+    permission_classes = (IsOwnerOrReadOnly, )
+
+class LikeListView(CreateAPIView):
+
+    queryset = Like.objects.all()
+    serializer_class = LikeSerializer
+    permission_classes = (IsOwnerOrReadOnly, )
+
+class LikeDetailView(DestroyAPIView):
+
+    queryset = Like.objects.all()
+    serializer_class = LikeSerializer
     permission_classes = (IsOwnerOrReadOnly, )
